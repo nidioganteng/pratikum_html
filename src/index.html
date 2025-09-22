@@ -1,20 +1,29 @@
-<!DOCTYPE html> <!-- Mendefinisikan dokumen sebagai HTML5, yang merupakan standar terkini.   -->
-<html lang="en"> <!-- Elemen root untuk setiap halaman HTML dengan atribut `lang` yang menentukan bahasa dari dokumen, dalam hal ini, English.    -->
-<head> <!-- Bagian dari dokumen yang berisi metadata.   -->
-    <meta charset="UTF-8"> <!-- Menetapkan set karakter yang digunakan untuk dokumen, UTF-8 mencakup hampir semua karakter dan simbol dari semua bahasa.    -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Membantu halaman dalam skalabilitas pada perangkat dengan ukuran layar yang berbeda, sangat penting untuk desain responsif.   -->
-    <title>Pratikum HTML</title> <!-- Judul dari halaman web, yang akan muncul pada tab browser.    -->
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratikum HTML</title> 
 </head>
-<body> <!-- Bagian ini akan berisi semua konten halaman web seperti teks, gambar, link, tabel, dll., yang akan dilihat oleh pengguna.    -->
+<body>
 
-    <!-- Tag Judul dan Paragraf -->
-    <h1>Profil Mahasiswa</h1> <!-- digunakan untuk mendefinisikan heading dan subheading, menunjukkan hierarki informasi dalam dokumen   -->
-    <p>Perkenalan Nama saya Dio</p>
-    
+    <nav>
+        <div class="pembungkus">
+            <div class="logo"><img src="/public/logo.png" alt="logo"></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Profile Mahasiswa</a></li>
+                    <li><a href="biodata.html">Biodata Mahasiswa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
     <!-- Subjudul untuk Bagian Biografi --> 
     <h2>Biografi</h2> 
     <!-- Paragraf Biografi --> 
-    <p> <!-- di sisi lain, digunakan untuk menulis teks dalam paragraf. --> 
+    <p> 
         Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS.
     </p>  
 
