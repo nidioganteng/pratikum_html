@@ -19,7 +19,7 @@ body {
 }
 
 nav{
-    background-color: #222831;
+    background-color: #2a2a2c;
     top: 0;
     z-index: 100;
 }
@@ -61,16 +61,7 @@ nav .navbar{
 /* hero */
 
 .head{
-    background: url("../public/bg-index.jpg");
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-}
-
-.biodatabg{
     background: url("../public/bio-bg.jpg");
-    background-position: 60%;
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
@@ -78,10 +69,10 @@ nav .navbar{
 }
 
 .head-opasity{
-    background-color: #393E46;
+    background-color: #1c1c1d;
     width: 100%;
     height: 100%;
-    opacity: 0.6;
+    opacity: 0.1;
     position: absolute;
 }
 
@@ -112,7 +103,7 @@ nav .navbar{
     padding: 5px;
 }
 
-/* About */
+/* About.html */
 
 .profile-container {
     max-width: 750px;
@@ -191,4 +182,23 @@ nav .navbar{
         width: 90px;
         height: 90px;
     }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.footer-left img {
+    width: 28px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.footer-right a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
 }
